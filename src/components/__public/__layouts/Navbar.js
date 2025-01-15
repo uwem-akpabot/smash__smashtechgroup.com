@@ -102,7 +102,7 @@ const Navbar = () => {
         <img src={logo} className="logo" title="Smash Technology Logo" alt="Smash Technology Logo" />
 
         <div title="Welcome to Smash Technology">
-          <span>Smash </span>Technology
+          Smash <span>Technology</span>
         </div>
       </Link>
 

@@ -12,7 +12,7 @@ const MissionVision = () => {
       <h2>Mission Statement</h2>
 
       <Swiper 
-        spaceBetween={1}
+        spaceBetween={1} 
         breakpoints={{
           1206: {
               slidesPerView: 3, /* 5. NORMAL LAPTOPS (E.G MY OWN) TO LARGE @media screen and (min-width: 1207px)*/
@@ -35,10 +35,12 @@ const MissionVision = () => {
           },
         }}
         autoplay={{
-          delay: 3000,
+          delay: 0,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay]}
+          speed={3500} 
+          loop={true} 
+          modules={[Autoplay]}
         >
 
         <div id="mission-desktop">
@@ -175,8 +177,11 @@ const MissionVision = () => {
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
+          reverseDirection: true, 
         }}
-        modules={[Autoplay]}
+          speed={2500} 
+          loop={true} 
+          modules={[Autoplay]}
         >
 
         <div>

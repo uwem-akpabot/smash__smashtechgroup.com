@@ -24,7 +24,7 @@ const WhoWeAre = () => {
         </div>
 
         <div>
-          <h2 className="desktop">Who <span>we are</span></h2>
+          <h2 className="desktop"><span>Who </span>we are</h2>
 
           <p><b>Smash Technology</b> is a tech group of companies focused on employing technology to service its clients locally and globally. Initially, the brand focused on Transport Investment 
           across the country and beyond before pivoting into other viable sectors such as E-hailing, E-commerce, Food delivery, Booking platform, Virtual Office platforms, Travels, Real Estate, Social Networking among others.</p>

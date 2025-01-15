@@ -1,6 +1,12 @@
 import { UilArrowDown, UilArrowRight } from '@iconscout/react-unicons';
 import { Link } from 'react-router-dom';
 import ceo from './../../../assets/images/ourteam/CEO.jpg';
+import ea from './../../../assets/images/ourteam/_EA.jpg';
+import gm from './../../../assets/images/ourteam/_GM.jpg';
+import hr from './../../../assets/images/ourteam/_HR.jpg';
+import hop from './../../../assets/images/ourteam/_HOP.jpg';
+import finance from './../../../assets/images/ourteam/_Finance.jpg';
+import admin from './../../../assets/images/ourteam/_Admin.jpg';
 import gracious from './../../../assets/images/ourteam//Gracious.jpg';
 import charity from './../../../assets/images/ourteam/Charity.jpg';
 import precious from './../../../assets/images/ourteam/Precious.jpg';
@@ -48,7 +54,7 @@ const OurTeam = () => {
 
         return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
       })(),
-      image: biz2,
+      image: ea,
       slug: 'exec_asst_to_ceo',
     },
     {
@@ -65,18 +71,24 @@ const OurTeam = () => {
 
         return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
       })(),
-      image: biz2,
+      image: gm,
       slug: 'gm',
     },
     {
-      title: 'Group Business Operations',
+      title: 'Group Head of Business Operations',
       description: (() => {
         const fullDescription =
-          `Group Business Operations profile`;
+          `Meet Claire Aguolu, Group Business OperationsAs the Head of Operations at Smash Technology I’m honored to lead the team that ensures our technology-driven vision is seamlessly brought to life. With a strong passion for operational excellence and a deep understanding of scaling businesses in the tech industry, my role revolves around optimizing processes, fostering innovation, and driving sustainable growth.
+
+          My journey to Smash Technology has been an exciting blend of challenges and accomplishments. With over 8 years of experience across specific areas, like the operational strategy, Client Relationship, Supply Chain Management, Sales and Process improvement, I’ve had the privilege of working with diverse teams across the Finance and Hospitality industry. My career began at Wema Bank PlC where I had an impactful role working in the operations department as a Branch Service Associate and later transitioned into the Hospitality industry which solidified my expertise in Operational excellence and Optimization What drew me to Smash Technology was not just its innovative technology but also its commitment to always striving for Excellence, Integrity, Commitment, Innovation and Optimal service delivery.
+
+          Joining this dynamic organization has allowed me to combine my operational acumen with a forward-thinking team that thrives on collaboration and creativity. At Smash Technology, I am dedicated to building systems that enable our teams to innovate fearlessly, deliver exceptional value to our clients, and set new industry standards. Together, we’re shaping a future where technology empowers people and businesses to achieve more.
+
+          I’m thrilled to be part of this journey, and I look forward to contributing to Smash Technology's legacy of excellence.`;
 
         return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
       })(),
-      image: biz2,
+      image: hop,
       slug: 'grp_biz_operations',
     },
     {
@@ -107,7 +119,7 @@ const OurTeam = () => {
 
         return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
       })(),
-      image: biz2,
+      image: hr,
       slug: 'grp_hrm',
     },
     {
@@ -118,7 +130,7 @@ const OurTeam = () => {
 
         return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
       })(),
-      image: biz2,
+      image: finance,
       slug: 'head_of_finance',
     },
     {
@@ -142,11 +154,19 @@ const OurTeam = () => {
       title: 'Head, Admin Operations',
       description: (() => {
         const fullDescription =
-          `Head, Admin Operations`;
+          `My name is Paul Alex Abiche a dedicated and highly motivated administrative professional currently serving as the Admin Manager at Smash Technology. With a proven track record of excellence in administrative management, I plays a pivotal role in ensuring the smooth and efficient operation of the organization.
+
+          Driven by a deep passion for administration, I excels at streamlining processes, enhancing organizational efficiency, and fostering collaboration among teams. My proactive approach to problem-solving and attention to detail have made me a cornerstone in maintaining the operational integrity of Smash Technology.
+
+          Beyond my administrative expertise, I am fueled by a profound interest in technology and innovation. I envisions a future where technology serves as a catalyst for growth, transforming businesses and society. This vision inspires me to stay ahead of industry trends and leverage cutting-edge tools to drive impactful change within the organization.
+
+          My quest for innovation is evident in my commitment to integrating modern solutions into administrative practices. I believes that technology and creativity go hand in hand in shaping a sustainable and progressive workplace culture.
+
+          With a focus on continuous learning and improvement, I remains an advocate for adopting forward-thinking strategies that align with the ever-evolving tech landscape. My passion for administration and innovation makes me a valuable leader in Smash Technology's mission to push the boundaries of what’s possible.`;
 
         return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
       })(),
-      image: biz2,
+      image: admin,
       slug: 'head_admin_operations',
     },
     {
@@ -275,7 +295,7 @@ const OurTeam = () => {
 
     //       My time in Smash Technology has been a transformative experience, offering invaluable opportunities for growth, learning, and development. Joining as an IT Support Executive, I've had the privilege of collaborating with a talented team of innovative and forward-thinking professionals. This exposure has significantly contributed to my career advancement in tech and has enabled me to enhance my skills and expertise.
 
-    //       Mamah Valentine: As an IT Support Executive, I encounter a wide range of software and hardware challenges on a daily basis. From familiar issues to novel ones, I leverage my broad IT expertise to provide timely and effective support to my colleagues. I deliver technical assistance, troubleshoot problems, and resolve issues within tight deadlines, all while maintaining workflow efficiency and minimizing downtime.
+    //       As an IT Support Executive, I encounter a wide range of software and hardware challenges on a daily basis. From familiar issues to novel ones, I leverage my broad IT expertise to provide timely and effective support to my colleagues. I deliver technical assistance, troubleshoot problems, and resolve issues within tight deadlines, all while maintaining workflow efficiency and minimizing downtime.
           
     //       Smash Technology's commitment to excellence and perfection serves as a powerful motivator for me. I strive to embody this organizational mindset by staying up-to-date with the latest trends and advancements in the tech world. I am dedicated to delivering high-quality results, ensuring that all tasks are completed on time and to the highest standards of perfection.
           
