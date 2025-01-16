@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Header from '../../__public/__layouts/Header';
 import Banner_otherpages from '../../__public/__sections/_Banner_otherpages';
 import image from '../../../assets/images/otherpages/investmentwithroi.jpg';
-import { PaystackButton } from 'react-paystack';
 
 const BuyShares = (props) => {
   const [unit, setUnit] = useState(0);
@@ -12,11 +12,11 @@ const BuyShares = (props) => {
   const handleUnitChange = (e) => setUnit(Number(e.target.value));
   const handleServiceTypeChange = (e) => setServiceType(e.target.value);
 
-  const publicKey = 'your-public-key'; // Replace with your Paystack public key
+  const publicKey = 'pk_live_cc0fa3d91c2856306b7a146d81e8e64479427e60'; // Replace with your Paystack public key
   const amount = unit * 1000 * 100; // Convert to kobo (Naira's smallest unit)
 
   const paystackProps = {
-    email: 'customer@example.com', // Replace with customer's email
+    email: 'akpabot.it@gmail.com', // Replace with customer's email
     amount: amount,
     publicKey: publicKey,
     text: "Pay with Paystack",
@@ -51,8 +51,7 @@ const BuyShares = (props) => {
           multiple sectors. To fuel our next phase of growth, we are offering 40% shares per brand, with a minimum purchase of 1,000 units.
           This is your chance to become part of our success story by investing in a company that is revolutionizing industries such as e-hailing, e-commerce, food delivery, and more.</p>
 
-          <button type="button" className="smashtech-button swipe-button mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Buy Shares / Calculator</button>
+          <Link to="/buy-shares-form" className="smashtech-button swipe-button mt-5">Buy Shares</Link>
       </div>
     </div>
 
@@ -129,90 +128,11 @@ const BuyShares = (props) => {
           <p>This is more than an investment—it’s an opportunity to join a forward-thinking company that values innovation, growth, and the success of its partners. 
           Take advantage of this offer to secure your share in Smash Technology’s future.</p>
 
-          <button type="button" className="smashtech-button swipe-button mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Buy Shares / Calculator</button>
+          <Link to="/buy-shares-form" className="smashtech-button swipe-button mt-5">Buy Shares</Link>
       </div>
     </div>
   </div>
 
-  <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div className="modal-dialog">
-      <div className="modal-content">
-        <div className="modal-header">
-          <h1 className="modal-title fs-5" id="exampleModalLabel">Buy up to 400,000 Unit of Shares per Brand</h1>
-          <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div className="modal-body">
-          <form>
-            <div>
-              <p className="my-0">Select Brand:</p>
-              <div style={{ display: 'flex', gap: '2rem' }}>
-                <div>
-                  <input
-                    type="radio"
-                    name="serviceType"
-                    value="Smashwise"
-                    checked={serviceType === "Smashwise"}
-                    onChange={handleServiceTypeChange}
-                  />
-                  <p className="my-0" style={{ color: '#F34B02' }}>Smashwise</p>
-                </div>
-                <div>
-                  <input
-                    type="radio"
-                    name="serviceType"
-                    value="Smash Travels"
-                    checked={serviceType === "Smash Travels"}
-                    onChange={handleServiceTypeChange}
-                  />
-                  <p className="my-0" style={{ color: '#F34B02' }}>Smash Travels</p>
-                </div>
-                <div>
-                  <input
-                    type="radio"
-                    name="serviceType"
-                    value="Ridesmash"
-                    checked={serviceType === "Ridesmash"}
-                    onChange={handleServiceTypeChange}
-                  />
-                  <p className="my-0" style={{ color: '#F34B02' }}>Ridesmash</p>
-                </div>
-              </div>
-            </div>
-
-            {serviceType && (
-              <div>
-                <p className="my-2 mb-3"><i>You selected: {serviceType}</i></p>
-              </div>
-            )}
-
-            <div>
-              <p className="my-0">Unit of Shares:</p>
-              <input
-                type="text"
-                value={unit}
-                onChange={handleUnitChange}
-                placeholder="Enter the units of shares you wish to buy ..."
-              />
-            </div>
-
-            <div>
-              <p className="my-0">Calculated Amount (in Naira):</p>
-              <input
-                type="text"
-                value={Intl.NumberFormat().format(unit * 1000)}
-                readOnly
-                placeholder="Amount to pay ..."
-              />
-            </div>
-            <div className="modal-footer">
-              <PaystackButton {...paystackProps} className="smashtech-button swipe-button" />
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
     </>
    );
  }

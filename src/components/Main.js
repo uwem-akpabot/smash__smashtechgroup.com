@@ -26,6 +26,7 @@ import Login from './pages/Investment/Login';
 import Dashboard from './pages/Investment/Dashboard';
 import Logout from './pages/Investment/Logout';
 import LiveChatWidget from './__public/__sections/_misc/LiveChatWidget';
+import BuySharesForm from './pages/Investment/BuySharesForm';
 
 const Main = () => {
   const company =  'Smash Technology';
@@ -48,6 +49,7 @@ const Main = () => {
       <Route path="/sales-marketing-department" element={<Dept_SalesMarketing company={company} />} />
 
       <Route path="/buy-shares" element={<BuyShares company={company} />} />
+      <Route path="/buy-shares-form" element={<BuySharesForm company={company} />} />
       <Route path="/invest-with-us" element={<InvestmentsWithROI company={company} />} />
       <Route path="/login" element={<Login company={company} />} />
       <Route path="/logout" element={<Logout />} />

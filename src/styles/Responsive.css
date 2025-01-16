@@ -939,6 +939,9 @@
     .partner-flex{
         gap: 1rem
     }
+    .title-height{
+        line-height: 130% !important;
+    }
 }
 
     /* ================================================= */
@@ -1994,7 +1997,7 @@
     .sections.meetourteam .business-container img.team{
         height: 300px !important;
         object-fit: cover;
-        object-position: bottom;
+        object-position: center;
     }
 
     /* core values */
@@ -2500,11 +2503,11 @@
         margin-top: 2rem;
         gap: 3rem
     }
-    .sections.meetourteam .business-container img.team{
+    /* .sections.meetourteam .business-container img.team{
         height: 23.5rem !important;
         object-fit: cover;
         object-position: center;
-    }
+    } */
 
     /* core values */
     #ourcorevalues{

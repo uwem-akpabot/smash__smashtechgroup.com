@@ -108,7 +108,14 @@ const TeamDetail = () => {
     head_of_finance: {
       title: 'Head of Finance',
       description: [
-        ``,
+        `Aribamikan Akinlolu's career journey.`,
+        `I have worked with several organizations as a professional accountant for so many years which I have gained a lot of experience on Financial Management, Resources Management and Auditing. In my Career so far, I have worked in an enabling and challenging environment where the best of in me utilized optimally for the advancement of the Organization and my fulfilment.`,
+
+        `A brief of how I joined Smash Technology Limited.`,
+        `On one faithful day I saw the advert online for the position of an Accountant and after reading the job descriptions instantaneously I became scheming and more interested to visited the company sites and Instagram for more information after reading the company profile, value and brands, then I industrialized more interest and eager to work and contributed to the continued success in Smash Technology Limited.`,
+
+        `Contributions to Smash Technology Limited`,
+        `Since joining, I have helped streamline financial management processes, improve budgeting and cost control, enhance internal auditing practices, and optimize resource allocation. Additionally, I have fostered collaboration across departments to ensure financial policies align with organizational goals, contributing to the company's financial stability and growth.`,
       ],
       image: biz2,
     },
@@ -207,22 +214,21 @@ const TeamDetail = () => {
     product_designer: {
       title: 'Product Designer',
       description: [
-        `My Journey into Tech and Design`,
-          
-          `My name is Mamah Valentine Obumneme a multifaceted individual and by profession a product designer specialized in designing user friendly interfaces. 
-          Growing up, I was that curious kid who loved gadgets—phones, laptops, anything I could explore. My mom often scolded me for spending hours on them, especially playing games and tinkering. Funny enough, my fascination with technology stayed with me through primary and secondary school. I discovered my passion for computers, acing subjects like Computer Studies and Data Processing, even though my math grades made my parents jokingly question my focus!
-          My journey into tech truly took shape when I first heard about coding. I tried and failed many times, getting errors that nearly made me cry, but I never gave up entirely. By the time I got into university to study Computer Science, I had new hope. In my second year, a visiting alumna introduced us to the world of UI/UX Design. She spoke about its creativity, opportunities, and how it could sometimes pay more than development roles. Intrigued, I dove headfirst into research. Figma, the design tool, seemed intimidating at first glance, but with perseverance, I began to grasp it. I spent sleepless nights watching tutorials, trying projects, and improving. My early designs might make me laugh today, but they were the building blocks of who I am now—a passionate and skilled product designer.
-          Through internships, Google design courses, and constant self-practice, I honed my craft. Today, I’m proud to say I’ve come a long way, growing daily and still striving to become one of the best in the industry.
-          As a designer, I’m driven by a desire to solve real-life problems through design and  crafting solutions that make people’s lives better.`,
-      
-          `My Role at Smash Technology`,
-      
-          `At Smash Technology, I serve as a Product Designer, a role I took on completion of my service year.  Some of my responsibilities as a product designer at Smash Technology include developing product requirement documents, conducting user research, creating user personas and journey maps, and crafting flow architectures—all before bringing designs to life. Beyond design, Smash Technology has provided me the platform to explore other areas like project management, quality assurance, and sales & marketing. These experiences have made me a more versatile professional.
-          So far, I’ve successfully contributed to over five projects within Smash Technology’s growing ecosystem of over 10 brands, many of which are tech-driven in a space of 4 months joining the company. My role involves redesigning and developing solutions that align with current industry standards and solving real-world user problems.
-          I aspire to become one of the best product designers in the world, pushing boundaries, solving meaningful problems, and inspiring others to take the bold step into the world of tech.`,
-          
-          `My Design Process: `,
-            `Empathize, Define, Ideate, Prototype, and Test`
+        `My name is Mamah Valentine Obumneme, a Product Designer at Smash Technology, where I have had the privilege of working on a variety of innovative and user-centered products. My passion lies in transforming complex problems into seamless, intuitive designs that enhance user experiences. Over the years, I have honed my skills in areas such as user research, UI/UX design, prototyping, and usability testing, always striving to create solutions that not only look great but also function smoothly.`,
+
+        `At Smash Technology, I have had the opportunity to work on projects that push the boundaries of design, collaborating with talented teams to deliver cutting-edge solutions. My work is deeply rooted in a user-first approach, ensuring that every design decision is made with the user’s needs in mind.`,
+
+        `Working at Smash Technology has been instrumental in shaping my career and expanding my skill set in ways that go beyond design. The company has provided me with invaluable experiences that have allowed me to grow both professionally and personally.`,
+        
+        `Being part of cross-functional teams has given me hands-on experience in managing design projects from start to finish. I’ve learned to balance creative goals with business objectives, ensuring that we meet deadlines while delivering high-quality results. Collaborating with developers, project managers, and stakeholders has taught me how to effectively manage resources and keep projects on track.`,                                                              
+        
+        `At Smash Technology, I have worked closely with the QA team, helping to ensure that the products we design meet rigorous quality standards. This experience has sharpened my ability to identify potential issues early in the process, iterate quickly, and maintain a focus on user experience throughout the testing phase.`,
+
+        `My role has also involved collaborating with the marketing team to ensure that our product designs align with the brand’s messaging and target audience. Working alongside marketers, I’ve gained a deeper understanding of how design connects with broader market strategies and how to create visually compelling products that resonate with users.`,
+
+        `One of the most rewarding aspects of my time at Smash Technology has been the relationships I’ve built with colleagues across different departments. I’ve had the chance to collaborate closely with engineers, product managers, and other designers, which has helped me improve my communication skills and learn how to integrate various perspectives into my design process.`,
+
+        `These experiences at Smash Technology have allowed me to become a more well-rounded product designer, capable of contributing to projects from multiple angles. I’m grateful for the growth I’ve experienced here, and I continue to strive for excellence in every project I take on. My journey at Smash Technology has not only shaped me as a designer but also as a versatile professional who understands the full scope of what it takes to create successful, user-centered products.`,
       ],
       image: val,
     },
@@ -291,7 +297,7 @@ const TeamDetail = () => {
     <Banner_otherpages title={category.title} image={category.image} />
 
     <div className="sections business-detail" id="whoweare">
-      <h2>{category.title}</h2>
+      <h2 className="title-height">{category.title}</h2>
       {category.description.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}
