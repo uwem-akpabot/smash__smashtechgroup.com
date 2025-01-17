@@ -1533,3 +1533,30 @@ p.partner{
   font-size: 1.15rem !important;
   color: var(--smashtech-color) !important;
 }
+.form{
+  /* background-color: red; */
+  margin-top: 8rem !important;
+  padding: 3.38rem 3rem;
+  max-width: 50%;
+  margin: auto;
+  background-color: var(--smashtech-bg-grey);
+}
+.form label{
+  font-size: var(--text-font-size);
+}
+.form h3{
+  color: var(--smashtech-color);
+  font-size: 2rem;
+}
+.form h6{
+  color: #03b;
+}
+.form input, .form select{
+  font-size: 1rem;
+  padding: .8rem;
+  font-weight: 600;
+  color: #222; 
+}
+.form select{
+  width: 50%;
+}

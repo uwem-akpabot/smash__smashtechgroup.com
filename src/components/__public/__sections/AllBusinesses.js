@@ -24,7 +24,7 @@ const AllBusinesses = () => {
     },
     {
       title: 'Smash Travels',
-      description: 'Effortless bookings and memorable journeys await. Let us handle the details—your adventure starts here.',
+      description: 'UNLOCKING INTERNATIONAL CAREERS ADVENTURE WITH SMASH TRAVELS ',
       image: biz3,
       slug: 'smashtravels',
     },
@@ -54,7 +54,7 @@ const AllBusinesses = () => {
     }, 
     {
       title: 'Smashproperties',
-      description: '',
+      description: 'YOUR GATEWAY TO STREAMLINED AND SECURE PROPERTY DEALS',
       image: placeholder,
       slug: 'smashproperties',
     },                 

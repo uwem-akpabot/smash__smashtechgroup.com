@@ -20,7 +20,7 @@ const OurBusiness = () => {
     },
     {
       title: 'Smash Travels',
-      description: 'Effortless bookings and memorable journeys await. Let us handle the details—your adventure starts here.',
+      description: 'Effortless bookings and memorable journeys await. Let us handle the details — your adventure starts here.',
       image: biz3,
       slug: 'smashtravels',
     },

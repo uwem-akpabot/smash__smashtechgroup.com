@@ -17,6 +17,8 @@ import precious from './../../../assets/images/ourteam/Precious.jpg';
 import favour from './../../../assets/images/ourteam/Favour1.jpg';
 import charity from './../../../assets/images/ourteam/Charity.jpg';
 import val from './../../../assets/images/ourteam/Val.jpg';
+import chris from './../../../assets/images/ourteam/Chris 1.jpg';
+import obike from './../../../assets/images/ourteam/Obike 1.jpg';
 import { UilArrowLeft } from '@iconscout/react-unicons';
     
 const TeamDetail = () => {
@@ -117,7 +119,7 @@ const TeamDetail = () => {
         `Contributions to Smash Technology Limited`,
         `Since joining, I have helped streamline financial management processes, improve budgeting and cost control, enhance internal auditing practices, and optimize resource allocation. Additionally, I have fostered collaboration across departments to ensure financial policies align with organizational goals, contributing to the company's financial stability and growth.`,
       ],
-      image: biz2,
+      image: finance,
     },
 
 
@@ -244,23 +246,23 @@ const TeamDetail = () => {
 
         `I am passionate about using my designs to bring ideas to life.`,
       ],
-      image: biz2,
+      image: chris,
     },
 
     it_support: {
       title: 'IT Support',
       description: [
-        `My name is Obike Victor. Since after my secondary school, my passion for technology and computers only grew stronger. Although I explored other industries, including healthcare, my love for tech remained unwavering. I took a proactive approach to learning, starting with the basics and progressively expanding my skills across various areas, including software and hardware training, coding, computer programming, and graphics design.`,
+        `My name is Obike Victor Emeka. Since after my secondary school, my passion for technology and computers only grew stronger. Although I explored other industries, including healthcare, my love for tech remained unwavering. I took a proactive approach to learning, starting with the basics and progressively expanding my skills across various areas, including software and hardware training, coding, computer programming, and graphics design.`,
 
         `My time in Smash Technology has been a transformative experience, offering invaluable opportunities for growth, learning, and development. Joining as an IT Support Executive, I've had the privilege of collaborating with a talented team of innovative and forward-thinking professionals. This exposure has significantly contributed to my career advancement in tech and has enabled me to enhance my skills and expertise.`,
 
-        `Mamah Valentine: As an IT Support Executive, I encounter a wide range of software and hardware challenges on a daily basis. From familiar issues to novel ones, I leverage my broad IT expertise to provide timely and effective support to my colleagues. I deliver technical assistance, troubleshoot problems, and resolve issues within tight deadlines, all while maintaining workflow efficiency and minimizing downtime.`,
+        `As an IT Support Executive, I encounter a wide range of software and hardware challenges on a daily basis. From familiar issues to novel ones, I leverage my broad IT expertise to provide timely and effective support to my colleagues. I deliver technical assistance, troubleshoot problems, and resolve issues within tight deadlines, all while maintaining workflow efficiency and minimizing downtime.`,
           
         `Smash Technology's commitment to excellence and perfection serves as a powerful motivator for me. I strive to embody this organizational mindset by staying up-to-date with the latest trends and advancements in the tech world. I am dedicated to delivering high-quality results, ensuring that all tasks are completed on time and to the highest standards of perfection.`,
           
         `My aspiration is to continue growing and learning, and I envision a future where I transition into a full-stack mobile app developer role. I am committed to expanding my skill set and expertise to achieve this goal.`,
       ],
-      image: biz2,
+      image: obike,
     },
 
     software_engineer: {

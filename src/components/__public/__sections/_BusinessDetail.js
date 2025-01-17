@@ -49,21 +49,10 @@ const BusinessDetail = () => {
       title: 'Smash Travels',
       image: biz3,
       website: 'https://smashtravels.com',
-      description: 'Effortless bookings and memorable journeys await. Let us handle the details—your adventure starts here.',
-      details: `SmashApartments presents a secure and profitable investment opportunity in the travel 
-      and accommodation sector. Your funds help scale our platform, expand our listings, and improve 
-      our service offerings, ensuring you benefit from the growing demand for online bookings. With the 
-      travel industry on the rise, your investment is safeguarded, and you stand to earn attractive returns 
-      as our platform gains market share. Additionally, your funds will be used for strategic advertising campaigns 
-      and partnership development, increasing visibility and driving more bookings. As the travel industry recovers, 
-      your investment will be poised for steady appreciation, offering high growth potential in a thriving market. 
-      SmashApartments SmashApartments is a dynamic web and mobile platform that simplifies property booking, rental, and sales. 
-      It combines the power of Airbnb, Booking.com, and property rental services, offering users an easy way to book short-term 
-      and long-term accommodations, including apartments, suites, and properties for sale. SmashApartments enables property owners, 
-      landlords, and tenants to connect, making it easier for everyone to secure a space. For investors, SmashApartments offers a 
-      high-growth opportunity in the expanding property market. Your investment benefits from consistent monthly returns, a secure 
-      and scalable platform, and the growing demand for both short-term and long-term rentals. With SmashApartments' wide market reach 
-      and robust user base, your funds are secured while continuously generating profitable returns.`,
+      description: 'UNLOCKING INTERNATIONAL CAREERS ADVENTURE WITH SMASH TRAVELS',
+      details: `Smash Travels is a travel platform specializing in processing work permit visas for clients seeking employment opportunities across Canada and several European countries. With a focus on simplifying the visa application process, Smash Travels aims to support individuals in navigating the complex requirements of securing work permits abroad.
+
+        The platform is designed to offer a seamless experience for clients, whether they are looking to move to Canada for career growth or explore professional prospects in European nations. Smash Travels is committed to ensuring that clients have access to up-to-date information, expert guidance, and a transparent process to facilitate the approval of work permits.`,
     },
     smashbookings: {
         title: 'Smash Bookings',
@@ -94,25 +83,31 @@ const BusinessDetail = () => {
         details: `More Detail`
     },  
     smashproperties: {
-        title: 'Smashproperties',
+        title: 'Smash Properties',
         image: '',
         website: '#',
-        description: 'Business summary',
-        details: `More Detail`
+        description: 'YOUR GATEWAY TO STREAMLINED AND SECURE PROPERTY DEALS',
+        details: `Smash Properties is a comprehensive platform designed to facilitate the buying and selling of houses and land with security, efficiency, and trust. The platform allows property vendors to easily register and list their properties for sale, reaching a broad audience of potential buyers. At the same time, clients seeking to purchase properties can also register, explore listings, and make informed decisions.
+
+        To ensure seamless and secure transactions, Smash Properties integrates an escrow system. This system acts as a trusted intermediary, safeguarding funds until all conditions of the transaction are met, protecting both buyers and sellers. By leveraging this approach, Smash Properties guarantees transparency, reduces risks, and fosters trust between parties.
+
+        Smash Properties serves as the ideal solution for anyone looking to buy or sell properties with confidence and ease.`,
     },                 
     smashhire: {
         title: 'Smash Hire',
         image: '',
         website: '#',
         description: 'Business summary',
-        details: `More Detail`
+        details: `Smash Hire is an innovative platform designed to bridge the gap between individuals in need of skilled services and talented artisans available nearby. 
+          Smash Hire connects you to reliable professionals within your vicinity. By offering a simple, intuitive platform, we make it easier than ever to find trusted artisans for a wide range of needs, ensuring quality service at your doorstep.
+          Our mission is to make skilled labor more accessible, efficient, and reliable for everyone by connecting trusted local artisans with individuals in need of services. We strive to create a platform that fosters trust, transparency, and convenience—empowering customers to find the right help when they need it and helping artisans expand their businesses with ease.`
     },                 
     smashlogistics: {
         title: 'Smash Logistics',
         image: '',
         website: '#',
-        description: 'Business summary',
-        details: `More Detail`
+        description: 'Revolutionizing Pickup Services with Location-Based Solutions',
+        details: `Smash Logistics is an innovative logistics platform that streamlines the process of picking up goods by leveraging real-time location data. Designed to meet the growing demand for efficient, location-based pickup services, Smash Logistics offers a flexible and reliable solution for businesses and individuals alike.`
     },                 
     smashlaundry: {
         title: 'Smash Laundry',
