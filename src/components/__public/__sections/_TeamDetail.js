@@ -152,10 +152,10 @@ const TeamDetail = () => {
       image: admin,
     },
 
-    team_lead_smashtravels: {
-      title: 'Team Lead for Smash Travels',
+    branchmgr_abuja: {
+      title: 'Branch Manager, Abuja',
       description: [
-        `My name is Charity John, and I am the Team Lead at Smash Travels, a division of Smash Technology. Customer service is more than just a role for me, it’s a passion.`,
+        `My name is Charity John, and I am the Business Operations Manager, Abuja. Customer service is more than just a role for me, it’s a passion.`,
 
         `My love for helping people and solving problems inspired me to pursue this field as a career.`,
 
@@ -213,10 +213,28 @@ const TeamDetail = () => {
       image: precious,
     },
 
-    product_designer: {
-      title: 'Product Designer',
+    team_lead_smashtravels: {
+      title: 'Team Lead for Smash Travels',
       description: [
-        `My name is Mamah Valentine Obumneme, a Product Designer at Smash Technology, where I have had the privilege of working on a variety of innovative and user-centered products. My passion lies in transforming complex problems into seamless, intuitive designs that enhance user experiences. Over the years, I have honed my skills in areas such as user research, UI/UX design, prototyping, and usability testing, always striving to create solutions that not only look great but also function smoothly.`,
+        `My name is Ajodo Evelyn Edebo, and I am the Team Lead at Smash Travels, a division of Smash Technology. Customer service is more than just a role for me, it’s a passion.`,
+
+        `My love for helping people and solving problems inspired me to pursue this field as a career.`,
+
+        `I joined Smash Technology in August 2024 as a Customer Service and was promoted to Team Lead in January 2025 This role has allowed me to refine my leadership skills, enhance communication, and contribute meaningfully to the company’s growth.`,
+
+        `Since I joined till date, my amazing team and I have achieved significant milestones, including converting leads into paying clients and boosting customer satisfaction by 80%. Through proactive engagement and streamlined processes, we’ve built stronger connections with clients and enhanced their overall experience.`,
+
+        `I’m motivated by a desire to help people overcome challenges and achieve their goals. Every interaction is an opportunity to create value, whether for clients or my team.`,
+
+        `I aim to help Smash Technology double its achievements, grow its client base, and set new benchmarks for customer satisfaction. With focused strategies and teamwork, I believe we can elevate the company to even greater heights.`,
+      ],
+      image: biz2,
+    },
+
+    product_designer: {
+      title: 'Lead Designer',
+      description: [
+        `My name is Mamah Valentine Obumneme, a Lead Designer at Smash Technology, where I have had the privilege of working on a variety of innovative and user-centered products. My passion lies in transforming complex problems into seamless, intuitive designs that enhance user experiences. Over the years, I have honed my skills in areas such as user research, UI/UX design, prototyping, and usability testing, always striving to create solutions that not only look great but also function smoothly.`,
 
         `At Smash Technology, I have had the opportunity to work on projects that push the boundaries of design, collaborating with talented teams to deliver cutting-edge solutions. My work is deeply rooted in a user-first approach, ensuring that every design decision is made with the user’s needs in mind.`,
 
@@ -234,6 +252,16 @@ const TeamDetail = () => {
       ],
       image: val,
     },
+    social_media: {
+      title: 'Team Lead, Social Media/Content Creation',
+      description: [
+        `My name is Ezeonwuka Greatness Vivian - Team Lead, Social Media/Content Creation at Smash Technology.`,
+        `I still vividly remember the thrill of receiving my offer letter from Smash Technology. It marked the beginning of an extraordinary chapter in my career as a social media influencer and content creator. From that moment on, I knew I was in for an exciting ride.`,
+
+        `Fast-forward to today, and I can confidently say that my journey at Smash Technology has been nothing short of remarkable. It's been a rollercoaster of challenges, growth, and impact. I've had the privilege of working with an exceptional team, collaborating on innovative projects, and pushing the boundaries of creative storytelling.`,
+      ],
+      image: vivian,
+    },
     graphic_designer: {
       title: 'Graphic Designer',
       description: [
@@ -250,7 +278,7 @@ const TeamDetail = () => {
     },
 
     it_support: {
-      title: 'IT Support',
+      title: 'Frontend Developer 1 & IT Support',
       description: [
         `My name is Obike Victor Emeka. Since after my secondary school, my passion for technology and computers only grew stronger. Although I explored other industries, including healthcare, my love for tech remained unwavering. I took a proactive approach to learning, starting with the basics and progressively expanding my skills across various areas, including software and hardware training, coding, computer programming, and graphics design.`,
 
@@ -274,15 +302,21 @@ const TeamDetail = () => {
       ],
       image: biz2,
     },
-    social_media: {
-      title: 'Social Media Influencer & Content Creator',
+    leadfs: {
+      title: 'Lead Full Stack Engineer',
       description: [
-        `My name is Ezeonwuka Greatness Vivian. The Social Media Influencer and Content Creator at Smash Technology.`,
-        `I still vividly remember the thrill of receiving my offer letter from Smash Technology. It marked the beginning of an extraordinary chapter in my career as a social media influencer and content creator. From that moment on, I knew I was in for an exciting ride.`,
+        `I am Uwem Akpabot. I emphasize that software should be created in a way that it is easy to maintain in the long run. 
+        Engineering and proper Architecture should be applied to software to make it easy to use, easy to reuse or modify, and perform flawlessly over 
+        a long period of time and continue to meet users' needs.`,
 
-        `Fast-forward to today, and I can confidently say that my journey at Smash Technology has been nothing short of remarkable. It's been a rollercoaster of challenges, growth, and impact. I've had the privilege of working with an exceptional team, collaborating on innovative projects, and pushing the boundaries of creative storytelling.`,
+        `In 2013, I earned a Master's Degree with Merit in Software Engineering in the UK - University of Greenwich, London, I am a Microsoft Certified Professional 
+        with progressive professional experience working with several technologies for over a decade. FHI 360 Abuja, Luday AB Nigeria/Sweden, Zyzics, and Tasty Foods Belvedere, UK
+        are just few of the organizations that my productivity was showcased with good leadership quality.`,
+
+        `Joining Smash Technology is a dream come true; a vision that aligns with mine. Vibrant, innovative, and smart place to work in. 
+        A visionary CEO and intelligent teams across brands; they push my drive even further. `,
       ],
-      image: vivian,
+      image: biz2,
     },
   };
 

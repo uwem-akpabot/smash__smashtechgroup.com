@@ -962,6 +962,10 @@
       .form select{
         width: 100%;
       }
+    
+    .corporate_docs h2{
+        line-height: 124% !important;
+    }
 }
 
     /* ================================================= */
@@ -1020,6 +1024,9 @@
     .menu {
         max-height: 16rem; 
         overflow-y: auto;      
+    }
+    .corporate_docs h2{
+        line-height: 124% !important;
     }
 }
 
@@ -1546,6 +1553,9 @@
     }
     #ourcorevalues img{
         border-radius: 1.35rem
+    }
+    .corporate_docs h2{
+        line-height: 124% !important;
     }
 }
 
@@ -2081,6 +2091,9 @@
       .form select{
         width: 50%;
       }
+    .corporate_docs h2{
+        line-height: 124% !important;
+    }
 }
 /* Val and CEO == 1920w */
 

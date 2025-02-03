@@ -85,6 +85,12 @@ const Footer = () => {
                           <Link to="/press-release">Latest News</Link>
                           <Link to="/blog">Blog</Link>
                           <Link to="/careers">Careers</Link>
+                          
+                          <div className="footer-link">
+                            <p style={{ lineHeight: '40px'}}><a href="tel:+23409169740288" title="Call our Hotline" className="_070smash mb-0"><span>OUR HOTLINE</span><br />
+                            <UilPhone /> 0916-974-0288</a></p>
+                          </div>
+                          {/* </div> */}
                       </div>
                   </div>
                   <div className="col-sm-6 col-md-6 col-lg-4">
@@ -93,7 +99,7 @@ const Footer = () => {
 
                           {categories.map((categ, index) => (
                             <div key={index}>
-                              <Link to={`/business/${categ.slug}`}>{categ.title}</Link>
+                              <Link to={`/business/${categ.slug}`}>{categ.title}</Link> 
                             </div>
                           ))}
                           
@@ -103,16 +109,21 @@ const Footer = () => {
                       <div className="footer-link">
                           <h2>Contact Us</h2>                         
                           
-                          <a href="tel:+2349097403297" title="Click to call" className="_070smash mb-0">070<span>SMASHTECH</span></a>
+                          <a href="tel:+234916-974-0288" title="Click to call" className="_070smash mb-0">070<span>SMASHTECH</span></a>
 
                           <p className="branch-labels">Corporate Head Office</p>
 
-                          <a href="tel:+2349097403297" title="Click to call"><UilPhone /> +234 9097403297</a>
-                          <a href="tel:+2348100693634" title="Click to call"><UilPhone /> +234 8100693634</a>
-                          <a href="tel:+2347054881783" title="Click to call"><UilPhone /> +234 7054881783</a>
+                          {/* <a href="tel:+2349097403297" title="Call"><UilPhone />  */}
+                          <a href="tel:+2342013303315" title="Call Us"><UilPhone /> +234 2013303315</a>
+
+                          <a href="https://wa.me/2349169740288" title="Chat Smash Travels on WhatsApp"><UilWhatsapp /> +234 9097403297 (Smash Travels)</a>
+                          
+                          <a href="https://wa.me/+2348100693634" title="Chat Ridesmash on WhatsApp"><UilWhatsapp /> +234 8100693634 (Ridesmash)</a>
+
+                          <a href="https://wa.me/+2347054881783" title="Chat Smashwise on WhatsApp"><UilWhatsapp /> +234 7054881783 (Smashwise)</a>
                           
                           <p className="branch-labels">Lagos Business Office</p>
-                          <a href="tel:+2348144824339" title="Click to call"> <UilPhone /> +234 8144824339</a><br />
+                          <a href="tel:+2348144824339" title="Call Lagos Office"> <UilPhone /> +234 8144824339</a><br />
 
                           <a href="mailto:info@smashtechgroup.com" title="Email us - Info"><UilEnvelope /> info@smashtechgroup.com</a>
                           <a href="mailto:support@smashtechgroup.com" title="Email us - Support"><UilEnvelope /> support@smashtechgroup.com</a>
@@ -141,9 +152,9 @@ const Footer = () => {
           </div>
           <div className="col-md-6 footer-menu">
             <div className="f-menu">
-              <a href="/privacypolicy">Privacy Policy</a>
-              <a href="/termsandconditions">Terms of Use</a>
-              <a href="/blog">Blog</a>
+              <Link to="/privacypolicy" style={{ color: '#eee' }}>Privacy Policy</Link>
+              <Link to="/termsandconditions" style={{ color: '#eee' }}>Terms of Use</Link>
+              <Link to="/passwordpolicy" style={{ color: '#eee' }}>Password Policy</Link>
             </div>
           </div>
         </div>

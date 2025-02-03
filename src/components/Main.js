@@ -27,6 +27,10 @@ import Dashboard from './pages/Investment/Dashboard';
 import Logout from './pages/Investment/Logout';
 import LiveChatWidget from './__public/__sections/_misc/LiveChatWidget';
 import BuySharesForm from './pages/Investment/BuySharesForm';
+import PrivacyPolicy from './pages/Other/PrivacyPolicy';
+import TermsAndConditions from './pages/Other/TermsAndConditions';
+import PasswordPolicy from './pages/Other/PasswordPolicy';
+import Corporate_Docs from './pages/About/Corporate_Docs';
 
 const Main = () => {
   const company =  'Smash Technology';
@@ -65,6 +69,11 @@ const Main = () => {
       <Route path="/job-application" element={<JobApplicationForm company={company} />} />
       <Route path="/investor-signup" element={<InvestmentForm company={company} />} />
       <Route path="/send-email" element={<SendEmail company={company} />} />
+
+      <Route path="/privacypolicy" element={<PrivacyPolicy company={company} />} />
+      <Route path="/termsandconditions" element={<TermsAndConditions company={company} />} />
+      <Route path="/passwordpolicy" element={<PasswordPolicy company={company} />} />
+      <Route path="/corporate-documents" element={<Corporate_Docs company={company} />} />
     </Routes>
 
     <Footer />

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { UilApps, UilAngleDown } from '@iconscout/react-unicons';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../../assets/images/logo/smash-logo.png';
+import { UilPhone } from '@iconscout/react-unicons';
 
 const Navbar = () => {
   const location = useLocation();
@@ -121,6 +122,7 @@ const Navbar = () => {
               <div className="dropdown-content">
                 <ul>
                   <li><Link to="/about">About Us</Link></li>
+                  <li><Link to="/corporate-documents">Corporate Documents</Link></li>
                   <li><Link to="/about#core_values">Our Core Values</Link></li>
                   <li><Link to="/about#commitment_to_sustainability">Commitment to Sustainability</Link></li>
                   <li><Link to="/about#commitment_to_quality">Commitment To Quality</Link></li>
@@ -192,8 +194,11 @@ const Navbar = () => {
       </ul>
 
       <div className="contacts">
-        <div>
-          <a href="#footer" className="smashtech-button swipe-button">Get In Touch</a>
+        {/* <div className="footer-link">
+          <p style={{ lineHeight: '40px'}}><a href="tel:+23409169740288" title="Call our Hotline" className="_070smash mb-0"><span><UilPhone /> 0916-974-0288</span></a></p>
+        </div> */}
+        <div style={{ fontSize: '16px' }}>
+          <a href="#footer" title="Contact us" className="smashtech-button swipe-button">Contact us</a>
         </div>
       </div>
     </nav>

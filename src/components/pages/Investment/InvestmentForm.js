@@ -117,16 +117,16 @@ const InvestmentForm = (props) => {
       </div>
 
       <div className="sections" style={{ marginInline: "10rem" }}>
-        <h2>Investor Signup</h2>
+        {/* <h2>Investor Signup</h2>
         <div className="form-header">
           <span className="dot"></span>
         </div>
 
         <p className="text-center small mb-4">
           Required fields are marked with Asterisk *
-        </p>
+        </p> */}
 
-        <form onSubmit={submitForm}>
+        {/* <form onSubmit={submitForm}>
           <div className="c3 c2-sm c1-xs form">
             <div>
               <label>First Name *</label>
@@ -277,7 +277,7 @@ const InvestmentForm = (props) => {
               />
             </div>
           </div>
-        </form>
+        </form> */}
       </div>
     </>
   );
