@@ -9,7 +9,8 @@ import victor from '../../../../assets/images/dept/single/Victor.jpg';
 import chris from '../../../../assets/images/dept/single/Chris.jpg';
 import uwem from '../../../../assets/images/dept/single/Uwem.jpg';
 import vivian from '../../../../assets/images/dept/single/Vivian.jpg';
-import { UilArrowRight, UilBookMedical } from '@iconscout/react-unicons';
+import segun from '../../../../assets/images/dept/single/Segun.jpg';
+import { UilArrowRight, UilBookMedical, UilLinkedin } from '@iconscout/react-unicons';
 
 import { Link } from 'react-router-dom';
 
@@ -17,14 +18,14 @@ const Dept_MediaIT = (props) => {
     const [activeTab, setActiveTab] = useState('Gracious');
     
     const tabContent = {
-        Gracious: { content: <img src={gracious} alt="Gracious" />, description: 'Head of Media & IT' }, 
-        Valentine: { content: <img src={valentine} alt="Valentine" />, description: 'Product Designer' },
-        Victor: { content: <img src={victor} alt="Victor" />, description: 'IT Support' }, 
-        Peter: { content: <img src={image} alt="Peter" />, description: 'Social Media Executive' },
-        Chris: { content: <img src={chris} alt="Chris" />, description: 'Graphic Designer' },
-        Uwem: { content: <img src={uwem} alt="Uwem" />, description: 'Software Engineer' }, 
-        Vivian: { content: <img src={vivian} alt="Vivian" />, description: 'Content Creator' },
-        Olusegun: { content: <img src={image} alt="Olusegun" />, description: 'Software Developer' }
+        Gracious: { content: <img src={gracious} alt="Gracious" />, description: 'Head of Media & IT', linkedin: 'https://www.linkedin.com/in/gracious-onyeahialam-3a52a918a' }, 
+        Valentine: { content: <img src={valentine} alt="Valentine" />, description: 'Lead Designer', linkedin: 'https://www.linkedin.com/in/mamah-valentine-964a2a184/' },
+        Victor: { content: <img src={victor} alt="Victor" />, description: 'IT Support/Frontend Dev', linkedin: 'https://www.linkedin.com/in/obike-victor-7ba93319a/' }, 
+        // Peter: { content: <img src={image} alt="Peter" />, description: 'Social Media Executive' },
+        Chris: { content: <img src={chris} alt="Chris" />, description: 'Graphic Designer', linkedin: 'https://www.linkedin.com/in/chris-chiboka-36b6b7203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+        Uwem: { content: <img src={uwem} alt="Uwem" />, description: 'Lead Full Stack Engineer', linkedin: 'https://www.linkedin.com/in/uwem-akpabot/' }, 
+        Vivian: { content: <img src={vivian} alt="Vivian" />, description: 'Team Lead, Social Media/Content', linkedin: 'https://www.linkedin.com/in/greatness-ezeonwuka-947058233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' },
+        Olusegun: { content: <img src={segun} alt="Olusegun" />, description: 'Software Developer', linkedin: 'https://www.linkedin.com/in/olusegun-omogbehinmi/' }
     };
 
     useEffect(() => {
@@ -63,7 +64,7 @@ const Dept_MediaIT = (props) => {
 
         <div className="dept_right">
             {Object.keys(tabContent).map((tab) => (
-            <div key={tab} className="c3">
+            <div key={tab} style={{ display: 'flex' }}>
                 {/* Tab Button */}
                 <h3
                     className={`tab-button ${activeTab === tab ? 'active' : ''}`}
@@ -76,7 +77,7 @@ const Dept_MediaIT = (props) => {
                 {tabContent[tab]?.description && (
                     <>
                     {tabContent[tab].description}
-                    <Link to="/person-detail" title="Full profile"><UilBookMedical /></Link>
+                    <a href={tabContent[tab].linkedin} title="Full profile"><UilLinkedin /></a>
                     </>
                 )}
             </div>

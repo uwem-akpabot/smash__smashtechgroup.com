@@ -8,6 +8,7 @@ import deptRidesmash from './../../../../assets/images/dept/ridesmash.jpg';
 import deptSmashwise from './../../../../assets/images/dept/smashwise.jpg';
 import deptOfficeAssistant from './../../../../assets/images/dept/officeassistants.jpg';
 import media from './../../../../assets/images/dept/media_it.jpg';
+import admin_dept from './../../../../assets/images/dept/admin_dept.jpeg';
 import { UilArrowRight } from '@iconscout/react-unicons';
 import { Link } from 'react-router-dom';
 
@@ -40,20 +41,20 @@ const People = (props) => {
       </div>
 
       <div className="people">
-        <img src={media} title="" alt="" />
+        <img src={admin_dept} title="" alt="" />
         <div>
           <p className="people-h2"><button className="bot"></button> HR & Admin Department</p>
           <Link to="/" className="smashtech-button swipe-button">View Department <UilArrowRight /></Link>
         </div>
       </div>
 
-      <div className="people">
+      {/* <div className="people">
         <img src={deptSales} title="" alt="" />
         <div>
           <p className="people-h2"><button className="bot"></button> Sales & Marketing Department</p>
           <Link to="/sales-marketing-department" className="smashtech-button swipe-button">View Department <UilArrowRight /></Link>
         </div>
-      </div>
+      </div> */}
 
       <div className="people">
         <img src={deptSmashtravel} title="" alt="" />

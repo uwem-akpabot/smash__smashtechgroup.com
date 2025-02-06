@@ -19,6 +19,9 @@ import charity from './../../../assets/images/ourteam/Charity.jpg';
 import val from './../../../assets/images/ourteam/Val.jpg';
 import chris from './../../../assets/images/ourteam/Chris 1.jpg';
 import obike from './../../../assets/images/ourteam/Obike 1.jpg';
+import lagos_branch_mgr from './../../../assets/images/ourteam/lagos_branch_manager.jpg';
+import evelyn from './../../../assets/images/ourteam/Evelyn.jpg';
+import segun from './../../../assets/images/ourteam/Segun.jpg';
 import { UilArrowLeft } from '@iconscout/react-unicons';
     
 const TeamDetail = () => {
@@ -87,26 +90,55 @@ const TeamDetail = () => {
     biz_operations_mgr_lag: {
       title: 'Business Operations Manager, Lagos',
       description: [
-        ``,
+        `My name is Igbinai Tehilah Uche.`,
+        `A dedicated and highly motivated professional with a background in banking, finance, customer service, operations, administrative management ,and a vast knowledge and certification in healthcare.`,
+
+        `I am currently serving as the Lagos State Branch Operations Manager at Smash Technology, where I oversee business processes to ensure goal oriented operations.`,
+
+        `With a strong passion for tech innovation and business transformation, I joined Smash Technology to further my passion for and excellence in the tech industry. This role has enabled me to integrate my diverse skill set with the company’s progressive vision, achieving significant outcomes.
+        I am dedicated to contributing a distinctive combination of skills and experience that strengthens the company’s commitment to delivering satisfying solutions`,
+
+        `In my capacity as Operations Manager, I have contributed to refining internal workflows, strengthening team collaborations, and spearheading initiatives that align with the company’s strategic goals.`,
+
+        `Smash Technology, in turn, has significantly enriched my professional journey by fostering a culture of learning and innovation, empowering me to grow as a leader in the tech industry.`,
+
+        `I look forward to continuing to grow with the Smash Technology and achieving greater success together.`,
       ],
-      image: biz2,
+      image: lagos_branch_mgr,
     },
-    grp_hrm: {
-      title: 'Group Human Resources Manager',
+    branchmgr_abuja: {
+      title: 'Branch Manager, Abuja',
       description: [
-        `Sharon Chiazom is a dedicated and results-oriented professional with extensive experience in Administration, Human Resources, and Customer Service. With a solid educational foundation from Anambra State University Uli, Sharon has honed her skills through years of excellence in the Healthcare and Information Technology industries.
-        Known for her ability to deliver exceptional service and build strong, positive relationships, Sharon is highly proficient in Complaint Management, Personnel Management, Administrative Skills, Interpersonal Communication, Service Quality, Teamwork, and Customer Service. Her dedication to professionalism and problem-solving has made her an invaluable asset in every organization she’s worked for.
-        Sharon's strong communication skills and ability to resolve issues swiftly and effectively are key components in her commitment to enhancing organizational success. She is eager to contribute her wealth of expertise to continue driving success in a dynamic, fast-paced organizational setting.`,
+        `My name is Charity John, and I am the Business Operations Manager, Abuja. Customer service is more than just a role for me, it’s a passion.`,
 
-        `How I Joined Smash Technology
-        My journey with Smash Technology began when I applied for the role of Human Resource Manager through LinkedIn. I was drawn to the opportunity and took the initiative to express my interest in the position by reaching out directly to the CEO. This proactive step led to an invitation for an interview, during which I had the opportunity to discuss my extensive experience in human resources and customer service. The CEO was impressed with my skills and knowledge, and I was offered the role of Human Resource Manager.
-        Since joining Smash Technology, I have applied my expertise in talent acquisition to ensure the company attracts and retains a talented workforce. My focus on effective employee management and team collaboration has been integral in achieving organizational goals. I have also worked tirelessly to enhance employee welfare by creating a positive, supportive work environment that encourages professional growth and satisfaction.
-        My role at Smash Technology has contributed immensely to my personal and professional growth. Every challenge I face at work is an opportunity for development, and I am proud to have navigated these challenges with resilience and a positive mindset. Additionally, working closely with the CEO has been incredibly rewarding; he is not just a boss but also a mentor and father figure. His guidance has helped shape my leadership skills and has given me the tools to succeed in this dynamic industry.`,
+        `My love for helping people and solving problems inspired me to pursue this field as a career.`,
 
-        `At Smash Technology, I continue to leverage my experience and skills to make a meaningful impact and drive the company's ongoing success.`,
+        `I joined Smash Technology in June 2024 as a Customer Service Executive and was promoted to Team Lead within three months. This role has allowed me to refine my leadership skills, enhance communication, and contribute meaningfully to the company’s growth.`,
+
+        `Since I joined till date, my amazing team and I have achieved significant milestones, including converting leads into paying clients and boosting customer satisfaction by 80%. Through proactive engagement and streamlined processes, we’ve built stronger connections with clients and enhanced their overall experience.`,
+
+        `I’m motivated by a desire to help people overcome challenges and achieve their goals. Every interaction is an opportunity to create value, whether for clients or my team.`,
+
+        `I aim to help Smash Technology double its achievements, grow its client base, and set new benchmarks for customer satisfaction. With focused strategies and teamwork, I believe we can elevate the company to even greater heights.`,
       ],
-      image: hr,
+      image: charity,
     },
+    // grp_hrm: {
+    //   title: 'Group Human Resources Manager',
+    //   description: [
+    //     `Sharon Chiazom is a dedicated and results-oriented professional with extensive experience in Administration, Human Resources, and Customer Service. With a solid educational foundation from Anambra State University Uli, Sharon has honed her skills through years of excellence in the Healthcare and Information Technology industries.
+    //     Known for her ability to deliver exceptional service and build strong, positive relationships, Sharon is highly proficient in Complaint Management, Personnel Management, Administrative Skills, Interpersonal Communication, Service Quality, Teamwork, and Customer Service. Her dedication to professionalism and problem-solving has made her an invaluable asset in every organization she’s worked for.
+    //     Sharon's strong communication skills and ability to resolve issues swiftly and effectively are key components in her commitment to enhancing organizational success. She is eager to contribute her wealth of expertise to continue driving success in a dynamic, fast-paced organizational setting.`,
+
+    //     `How I Joined Smash Technology
+    //     My journey with Smash Technology began when I applied for the role of Human Resource Manager through LinkedIn. I was drawn to the opportunity and took the initiative to express my interest in the position by reaching out directly to the CEO. This proactive step led to an invitation for an interview, during which I had the opportunity to discuss my extensive experience in human resources and customer service. The CEO was impressed with my skills and knowledge, and I was offered the role of Human Resource Manager.
+    //     Since joining Smash Technology, I have applied my expertise in talent acquisition to ensure the company attracts and retains a talented workforce. My focus on effective employee management and team collaboration has been integral in achieving organizational goals. I have also worked tirelessly to enhance employee welfare by creating a positive, supportive work environment that encourages professional growth and satisfaction.
+    //     My role at Smash Technology has contributed immensely to my personal and professional growth. Every challenge I face at work is an opportunity for development, and I am proud to have navigated these challenges with resilience and a positive mindset. Additionally, working closely with the CEO has been incredibly rewarding; he is not just a boss but also a mentor and father figure. His guidance has helped shape my leadership skills and has given me the tools to succeed in this dynamic industry.`,
+
+    //     `At Smash Technology, I continue to leverage my experience and skills to make a meaningful impact and drive the company's ongoing success.`,
+    //   ],
+    //   image: hr,
+    // },
     head_of_finance: {
       title: 'Head of Finance',
       description: [
@@ -150,24 +182,6 @@ const TeamDetail = () => {
         `With a focus on continuous learning and improvement, I remains an advocate for adopting forward-thinking strategies that align with the ever-evolving tech landscape. My passion for administration and innovation makes me a valuable leader in Smash Technology's mission to push the boundaries of what’s possible.`,
       ],
       image: admin,
-    },
-
-    branchmgr_abuja: {
-      title: 'Branch Manager, Abuja',
-      description: [
-        `My name is Charity John, and I am the Business Operations Manager, Abuja. Customer service is more than just a role for me, it’s a passion.`,
-
-        `My love for helping people and solving problems inspired me to pursue this field as a career.`,
-
-        `I joined Smash Technology in June 2024 as a Customer Service Executive and was promoted to Team Lead within three months. This role has allowed me to refine my leadership skills, enhance communication, and contribute meaningfully to the company’s growth.`,
-
-        `Since I joined till date, my amazing team and I have achieved significant milestones, including converting leads into paying clients and boosting customer satisfaction by 80%. Through proactive engagement and streamlined processes, we’ve built stronger connections with clients and enhanced their overall experience.`,
-
-        `I’m motivated by a desire to help people overcome challenges and achieve their goals. Every interaction is an opportunity to create value, whether for clients or my team.`,
-
-        `I aim to help Smash Technology double its achievements, grow its client base, and set new benchmarks for customer satisfaction. With focused strategies and teamwork, I believe we can elevate the company to even greater heights.`,
-      ],
-      image: charity,
     },
 
     team_lead_ridesmash: {
@@ -228,7 +242,7 @@ const TeamDetail = () => {
 
         `I aim to help Smash Technology double its achievements, grow its client base, and set new benchmarks for customer satisfaction. With focused strategies and teamwork, I believe we can elevate the company to even greater heights.`,
       ],
-      image: biz2,
+      image: evelyn,
     },
 
     product_designer: {
@@ -300,7 +314,7 @@ const TeamDetail = () => {
         `I'm a dedicated software engineer with over 3 years of experience in the tech industry, specializing in developing scalable applications and robust API solutions. My work focuses on building user-centric tools that streamline workflows, boost productivity, and drive innovation.`,
         `With a strong commitment to delivering high-quality, scalable solutions, I’m continuously honing my technical expertise to stay at the forefront of industry advancements. I’m passionate about using technology to create meaningful impact and to solve real-world problems.`,
       ],
-      image: biz2,
+      image: segun,
     },
     leadfs: {
       title: 'Lead Full Stack Engineer',
